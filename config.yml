@@ -2,21 +2,21 @@
 # If you need help, join our discord server here: https://discord.gg/zv6maQRah3
 
 # Bot Configuration
-token: 'Put bot token here'
+token: 'MTA5OTg5NDU2MDYyNjMzMTcyOQ.GGrNU0.bZgvoNpuiZd7q43Wu2zKYcQVFbt_7WjnCELhzA'
 presence:
-    text: 'Hosting Panel'
+    text: AdamantiteNodes Panel'
     type: 'watching' # can be 'watching', 'playing', 'listening', or 'competing'. for 'streaming' is not working for now
     status: 'online' # can be 'online', 'idle', 'dnd', or 'invisible'
 
 # Discord Channel and Refresh Time Configuration
-channel: 'Put channel id here'
+channel: '1132515936218394764'
 refresh: 60 # How much time the bot will refresh the stats
 timeout: 1 # How much time to wait some node to respond to the bot (if you change this, it will add more time to refresh the stats)
 
 # Panel Configuration
 panel:
-    url: 'Put panel url here'
-    key: 'Put panel apikey here'
+    url: 'https://panel.adamantite.top/'
+    key: 'ptla_RVcdImbJmz1M0UsZzejIMVoKzTgtmC7WIAdBgxT7Di1'
 
 # Message and Embed Configuration
 # leave '' if you want to disable option
@@ -25,10 +25,10 @@ message:
     attachment: '' # If you enable attachment on message it upload the attachment first before sending or editing message and it will delay the stats
 
 embed:
-    title: 'PteroStats'
+    title: 'AdmantiteNodes'
     color: '5865F2'
     description: 'Next update {{time}}' # You can use {{time}} to make "in X seconds" time format
-    footer: 'By Hirzi#8701'
+    footer: ''
     timestamp: true
     thumbnail: ''
     image: ''
@@ -40,11 +40,11 @@ embed:
 button:
     enable: true
     btn1:
-        label: 'PteroStats'
-        url: 'https://github.com/HirziDevs/PteroStats'
+        label: 'AdmantiteNodes Panel'
+        url: 'https://panel.adamantite.top/'
     btn2:
-        label: ''
-        url: ''
+        label: 'AdamantiteNodes Client'
+        url: 'https://client.adamantite.top/'
     btn3:
         label: ''
         url: ''
